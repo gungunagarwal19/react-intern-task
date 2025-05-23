@@ -7,7 +7,7 @@ const Profile = () => {
   const name = userName || "Marry Doe";
   const email = userEmail || "Marry@Gmail.Com";
 
-  const [profileImage, setProfileImage] = useState("/gungun.jpg");
+  const [profileImage, setProfileImage] = useState("./gungun.jpg");
 
   const handleImageChange = (event) => {
     const file = event.target.files[0];

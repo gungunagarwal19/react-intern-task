@@ -12,7 +12,7 @@ const Login = () => {
 
     navigate("/profile", {
       state: {
-        userName: "Logged In User",
+        userName: "Gungun Agarwal",
         userEmail: email,
       },
     });
