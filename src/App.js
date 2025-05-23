@@ -2,7 +2,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Splash from './pages/Splash';
 import Signup from './pages/Signup'; 
 import Login from './pages/Login';
-import Dashboard from "./pages/Dashboard";
+import Profile from "./pages/Profile";
+
 
 
 
@@ -16,7 +17,8 @@ function App() {
         <Route path="/" element={<Splash />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/login" element={<Login />} />
-        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/profile" element={<Profile />} />
+
        
       </Routes>
     </Router>
